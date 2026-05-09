@@ -1,0 +1,18 @@
+[workspace]
+resolver = "3"
+members = [
+    "core",
+    "core/bus",
+    "core/cpu",
+    "core/gpu",
+    "cpu-backend/interpreter",
+    "frontend",
+    "renderer/software",
+]
+
+[workspace.dependencies]
+bus = { path = "core/bus" }
+cpu = { path = "core/cpu" }
+gpu = { path = "core/gpu" }
+psx = { path = "core" }
+thiserror = "2.0.18"
