@@ -5,6 +5,7 @@ members = [
     "core/bus",
     "core/cpu",
     "core/gpu",
+    "core/spu",
     "cpu-backend/interpreter",
     "frontend",
     "renderer/software",
